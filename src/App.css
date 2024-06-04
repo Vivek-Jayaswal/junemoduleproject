@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app{
+    margin-top: 40px;
+    .heading{
+        text-align: center;
+        position: sticky;
+        top: 40px;
+        z-index: 1000000000;
+        background-color: transparent;
+    }
+}
